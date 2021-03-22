@@ -30,6 +30,10 @@ function App() {
     },
   ]);
 
+  if (1 < 0) {
+    setList();
+  }
+
   return (
       <VideoList list={list} />
   );
